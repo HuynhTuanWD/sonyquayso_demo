@@ -1,0 +1,110 @@
+#sony {
+    position: relative;
+    height: 100vh;
+}
+#sony>* {
+    position: absolute;
+}
+#nen{
+    height: 100vh;
+    width: 100%;
+}
+.bg{
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+#bg{
+	height: 100vh;
+}
+#start {
+    width: auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 100vh;
+}
+
+#center {
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 2;
+    width: auto;
+    height: 10vh;
+    top: 44vh;
+}
+
+#nhanqua {
+    height: 17vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 50vh;
+    z-index: 4;
+}
+#vongquay {
+    height: 51.5vh;
+    left: 50%;
+    transform: translate(-49%, 0) rotate(360deg);
+    top: 25vh;
+}
+
+.qua {
+    top: 25vh;
+    height: 51.5vh;
+    left: 50%;
+    transform: translate(-49%, 0);
+}
+#bg_batdau {
+    left: 50%;
+    top: 42vh;
+    transform: translate(-50%, 0);
+    height: 14vh;
+    width: 15%;
+    z-index: 10;
+    background: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+#btn_batdau {
+	font-family: tahoma;
+    left: 50%;
+    top: 42vh;
+    transform: translate(-50%, 0);
+    height: 14vh;
+    width: 15%;
+    z-index: 1000;
+    font-size: 2em;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#btn_batdau {
+    font-size: 14px;
+}
+#btn_batdau:hover{
+	cursor: pointer;
+}
+@media only screen and (min-width: 544px) {
+    #btn_batdau {
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #btn_batdau {
+        font-size: 25px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #btn_batdau {
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    #btn_batdau {
+        font-size: 35px;
+    }
+}
+
